@@ -11,7 +11,7 @@ from functools import reduce
 def main():
     #                           READ IN DATA
     # read in data from .csv format
-    os.chdir('/Users/oliverrisch/Pet_Projects/Education_Spending/Data')
+    os.chdir('~/Data')
     raw_edu_data = pd.read_csv('education_data.csv')
     wage_data = pd.read_csv('wage_data.csv')
     raw_col_data = pd.read_csv('COLI.csv')
